@@ -11,7 +11,6 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -57,60 +56,7 @@ INSERT INTO `tb_aluno` (`id`, `nome`) VALUES
 (18, 'Vítor Frazatto Barduco'),
 (19, 'Walmir Antonio de Sousa Ribeiro'),
 (20, 'Maria Fernanda'),
-(21, 'Maria Fernanda'),
-(22, 'Maria Fernanda'),
-(23, 'Maria Fernanda'),
-(24, 'Maria Fernanda'),
-(25, 'Maria Fernanda'),
-(26, 'Maria Fernanda'),
-(27, 'Maria Fernanda'),
-(28, 'Maria Fernanda'),
-(29, 'Maria Fernanda'),
-(30, 'Maria Fernanda'),
-(31, 'Maria Fernanda'),
-(32, 'Maria Fernanda'),
-(33, 'Maria Fernanda'),
-(34, 'Maria Fernanda'),
-(35, 'Maria Fernanda'),
-(36, 'Maria Fernanda'),
-(37, 'Maria Fernanda'),
-(38, 'Maria Fernanda'),
-(39, 'Maria Fernanda'),
-(40, 'Maria Fernanda'),
-(41, 'Maria Fernanda'),
-(42, 'Maria Fernanda'),
-(43, 'Maria Fernanda'),
-(44, 'Maria Fernanda'),
-(45, 'Maria Fernanda'),
-(46, 'Maria Fernanda'),
-(47, 'Maria Fernanda'),
-(48, 'Maria Fernanda'),
-(49, 'Maria Fernanda'),
-(50, 'Maria Fernanda'),
-(51, 'Maria Fernanda'),
-(52, 'Maria Fernanda'),
-(53, 'Maria Fernanda'),
-(54, 'Maria Fernanda'),
-(55, 'Maria Fernanda'),
-(56, 'Maria Fernanda'),
-(57, 'Maria Fernanda'),
-(58, 'Maria Fernanda'),
-(59, 'Maria Fernanda'),
-(60, 'Maria Fernanda'),
-(61, 'Maria Fernanda'),
-(62, 'Maria Fernanda'),
-(63, 'Maria Fernanda'),
-(64, 'Maria Fernanda'),
-(65, 'Maria Fernanda'),
-(66, 'Maria Fernanda'),
-(67, 'Maria Fernanda'),
-(68, 'Maria Fernanda'),
-(69, 'Maria Fernanda'),
-(70, 'Maria Fernanda'),
-(71, 'Maria Fernanda'),
-(72, 'Maria Fernanda'),
-(73, 'Maria Fernanda'),
-(74, 'Maria Fernanda');
+
 
 -- --------------------------------------------------------
 
@@ -154,6 +100,8 @@ INSERT INTO `tb_info_alunos` (`id`, `telefone`, `email`, `nascimento`, `frequent
 (19, '13157565466', 'Walmir@gmail.com', '1994-04-29', 1, 19, 'walmir.png'),
 (20, '19955874178', 'mariaf@gmail.com', '2003-10-10', 0, 73, 'Ellipse 1.png'),
 (21, '19955874178', 'mariaf@gmail.com', '2003-10-10', 0, 74, 'Ellipse 1.png');
+
+-- --------------------------------------------------------
 
 --
 -- Índices para tabelas despejadas
